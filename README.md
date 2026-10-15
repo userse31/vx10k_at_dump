@@ -8,3 +8,11 @@ The AT Hayes modem emulator on the phone does not support peeking/poking memory 
 (And also reenables the web browser by patching out the cellular reception check.)
 
 Also I'm a girl. (Yeah I didn't see that one coming myself either lol.)
+
+----
+
+"Cave Johnson here. You might of noticed there's both \"dump\" and \"dump_multitry\". Truth be told, Qualcomm BREW is 200% spaghetti code! No idea how. The lab boys are still trying to figure that one out.
+
+What we do know is that the chunks of code that dry the GUI and run the AT modem are both clumped together, which causes weird race conditions, and it does NOT like it when you read up past a certain address in memory.
+
+Cave Johnson, we're done here."
